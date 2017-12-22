@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * This is a simple test command
- * @author PretoX
+ * @author Preto95
  * @version 1
  *
  */
