@@ -1,0 +1,6 @@
+.directory
+*.iml
+*.properties
+
+music/*
+.idea/*
