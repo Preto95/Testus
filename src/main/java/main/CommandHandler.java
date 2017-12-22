@@ -6,14 +6,23 @@ import sx.blah.discord.handle.impl.events.guild.channel.message.MessageReceivedE
 
 import java.util.*;
 
+/**
+ * This class matches the arguments to the commands
+ * @author Preto95
+ * @version 2
+ */
+
 public class CommandHandler {
 
     //private AudioPlayer audioP;
-    private Collection<CommandExecutor> allCommands;
+    private Collection<CommandExecutor> allCommands;    //command list
 
+    /**
+     * Constructor
+     */
     CommandHandler()
     {
-        //Register all commands
+        //Register all commands in command list
         allCommands = new ArrayList<>();
         this.allCommands.clear();
         this.allCommands.add(new testCommand());
@@ -24,6 +33,10 @@ public class CommandHandler {
 
     }
 
+    /**
+     * Receives the incoming messages and matches to the commands
+     * @param event The fired event
+     */
     @EventSubscriber
     public void onMessageReceived(MessageReceivedEvent event) {
         String[] argArray = event.getMessage().getContent().split(" ");
