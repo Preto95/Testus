@@ -10,6 +10,12 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Plays the defined song
+ * @author Preto95
+ * @version 1
+ */
+
 public class playSong implements CommandExecutor {
 
     private AudioPlayer audioP;
