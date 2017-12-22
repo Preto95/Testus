@@ -7,6 +7,12 @@ import sx.blah.discord.util.audio.AudioPlayer;
 
 import java.util.List;
 
+/**
+ * Stops the playing song
+ * @author Preto95
+ * @version 1
+ */
+
 public class stopSong implements CommandExecutor {
 
     private AudioPlayer audioP;
