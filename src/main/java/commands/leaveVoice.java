@@ -5,6 +5,12 @@ import sx.blah.discord.handle.obj.IVoiceChannel;
 
 import java.util.List;
 
+/**
+ * Leaves the voice channel
+ * @author Preto95
+ * @version 1
+ */
+
 public class leaveVoice implements CommandExecutor {
 
     @Override
