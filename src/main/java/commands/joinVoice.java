@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * The bot joins your voice channel
- * @author PretoX
+ * @author Preto95
  * @version 1
  */
 
