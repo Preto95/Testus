@@ -1,6 +1,7 @@
 .directory
 *.iml
 *.properties
+*.jar
 
 music/*
 .idea/*
